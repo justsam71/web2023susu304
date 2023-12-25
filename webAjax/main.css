@@ -1,0 +1,181 @@
+.header{
+ display:flex;
+ background: #efeffa;
+ padding-top:50px; 
+ padding-bottom:60px;
+ flex-direction: row;
+ align-items: center;   
+ gap: 100px;
+}
+
+.headerName{
+   font-size: 100px; 
+   color: #000000;
+    font-family: "Roboto Black";
+}
+
+
+.ButtonCreate{
+    color: #000000;
+    padding: 30px 250px;
+    border-radius: 20px;
+    font-size: 60px;
+}
+
+
+
+.pop_up{
+    width: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.8);
+    z-index: 2;
+    padding-top: 50px;
+    display: none;
+}
+.pop_up.active{
+    display: block;
+}
+
+.pop_up_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 500px;
+}
+.pop_up_body{
+    margin: auto;
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 20px 110px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+    
+
+}
+.pop_up_body input:focus{
+    outline: none;
+}
+
+#main{
+display: flex;
+flex-direction: column;
+text-align: center;
+/*justify-content:center;*/
+background-color: #efeffa;
+height: auto;
+min-height: 700px;
+
+}
+
+.content{
+ width: 1950px;
+ background: #fdfdfd;
+ padding-top:10px; 
+ padding-bottom:10px;
+ box-shadow: 0px -2px 0px 0px #666 inset;
+}
+
+
+.myWork{
+    font-size: 80px; 
+    font-family: "Roboto Black";
+    padding-top: 50px;
+    margin-top:60px; 
+}
+.checkFalse{
+ transform:scale(3); 
+ margin-right:40px;
+}
+
+input:checked + span {
+	text-decoration: line-through;
+}
+.button1{
+padding: 30px 90px;
+border-radius: 20px;
+background: #ffffff;
+align-self: center;
+margin-bottom:20px;
+margin-top:20px;
+font-size: 40px;
+border: none;
+}
+button:hover{
+    background: #717171;
+}
+
+
+.dell{
+    padding: 30px 90px;
+    border-radius: 20px;
+    background: #aeaeae;
+    font-size: 25px;
+    border: none;
+    margin:10px; 
+}
+.edit{
+      padding: 30px 90px;
+    border-radius: 20px;
+    background: #aeaeae;
+    font-size: 25px;
+    border: none;
+    margin:10px;   
+}
+.dell:hover{
+    background: #717171;
+}
+
+.InputTasks{
+    color:#fdfdfd;
+}
+
+#out{
+    font-size: 70px;
+    align-self:center;
+    
+    
+}
+#inputId{
+    font-size: 50px;
+}
+#inputName{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.footer{
+     display:flex;
+ background: #efeffa;
+ padding-top:50px; 
+ padding-bottom:60px;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+}
+.footer_text{
+font-size: 60px;
+color: #efeffa;
+font-family: "Agnesa Kyoto";  
+}
+
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Agnesa Kyoto";
+    src: url("Agnesa-Kyoto.ttf");
+}
+
+

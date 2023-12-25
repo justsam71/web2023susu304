@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebAjax</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<header>
+    <div class="header">
+        <div class="headerName">ToDoList:</div>
+        <button class="ButtonCreate" onclick="openWindow()">
+        Добавить 
+        </button>
+        
+        
+    </div>
+</header>
+<body>
+ 
+  <div class="pop_up" id="my">
+      <div class="pop_up_container">
+          <div class="pop_up_body">
+              <div class ="InputTasks">Введите задачу</div>
+              <input type="text" id="inputId">
+              <input type="text" id="inputName">
+              <button class="button1" onclick="add()">Добавить</button>
+              <button class="button1" id = "close">Закрыть</button>
+              <button class="button1" onclick = "edit()">Изменить</button>
+          </div>
+      </div>
+  </div>
+  
+  
+   <div id = "main">
+    
+    <div id="input">
+    </div>
+    <hr>
+        <div id="out">
+            
+        </div>
+    </div>
+    
+</body>
+  
+   <footer>
+       <div class="footer">
+           <div class="footer_text">
+               
+           </div>
+       </div>
+   </footer>
+   
+    <script src='js.js'> </script>
+</html>
